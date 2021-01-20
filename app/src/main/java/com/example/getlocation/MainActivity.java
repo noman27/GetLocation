@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         try {
-            network_enabled = locationManager.isProviderEnabled(locationManager.GPS_PROVIDER);
+            network_enabled = locationManager.isProviderEnabled(locationManager.NETWORK_PROVIDER);
         } catch (Exception e) {
 
         }
