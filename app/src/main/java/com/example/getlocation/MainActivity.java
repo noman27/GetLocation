@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
             //warning message show on screen if gps is not turned on or no internet
             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
             builder.setTitle("Warning");
-            builder.setMessage("Turn On GPS!");
+            builder.setMessage("GPS On!");
             builder.create().show();
         }
 
